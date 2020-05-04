@@ -1,0 +1,143 @@
+#navbar {
+    height: 180px;
+    width: 100vw;
+    padding: 5px;
+    background-image: url(../SSFAssignment/assets/whiteX.jpg);
+    border-bottom: 15px solid #FF8B2B;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+input {
+    margin: 5px 5px 5px 5px;
+}
+
+.socialMedia {
+    padding: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+.shoppingCart {
+    padding: 4px;
+    height: 50px;
+    width: 50px;
+}
+
+#consoles {
+    border: solid;
+    width: 70%;
+    height: 500px;
+}
+
+.gameConsole {
+    display: inline-block;
+    height: 500px;
+    width: 556px;
+    position: relative;
+    margin: 1px 10px 1px 50px;
+    transition: ease-in-out 300ms;
+}
+
+#switch {
+    background-color: red;
+    border-radius: 50px;
+}
+
+#xbox {
+    background-color: green;
+    border-radius: 50px;
+}
+
+#ps4 {
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.gameConsole img:hover {
+    transition: ease-in-out 300ms;
+    opacity: 0.5;
+}
+
+.game {
+    height: 320px;
+    width: 276px;
+    position: relative;
+    display:inline-block;
+    transition: ease-in-out 300ms;
+}
+
+#switchGame {
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#xboxGame {
+    background-color: green;
+    border-radius: 10px;
+}
+
+#ps4Game {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.game img:hover {
+    transition: ease-in-out 300ms;
+    opacity: 0.5;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*.text {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+button {
+    height: 130px;
+    width: 400px;
+    font-size: 28pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    background-color: rgb(68, 70, 71);
+    color: #FF8B2B;
+    position: relative;
+    transition: ease-in-out 400ms;
+    border-radius: 3px;
+    margin: 70px;
+}
+
+button:hover {
+    background-color: rgb(105, 108, 110);
+    transition: ease-in-out 400ms;
+}
+
+footer{
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+    font-size: x-large;
+    color: #FF8B2B;
+}
